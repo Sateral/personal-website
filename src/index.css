@@ -55,7 +55,7 @@
 
 .dark__gradient {
   position: relative;
-  background: linear-gradient(165deg, #181717 0%, #111111 100%);
+  background: linear-gradient(165deg, #222121 0%, #111111 100%);
   transition: background 0.5s ease;
   display: inline-block;
   z-index: 1;
@@ -69,7 +69,7 @@
   left: -50%;
   width: 200%;
   height: 200%;
-  background: linear-gradient(65deg, #111111 0%, #161616 100%);
+  background: linear-gradient(65deg, #111111 0%, #222121 100%);
   transform: translate(-25%, -25%);
   z-index: -1;
   opacity: 0;
@@ -81,11 +81,39 @@
 }
 
 .about__card {
-  background: linear-gradient(165deg, #181717 0%, #111111 100%);
-  transition: 50ms ease;
+  background: transparent;
+  border: 1px solid;
+  border-image: linear-gradient(46deg, rgb(236, 231, 231) 0%, #1A1A1E 25%, #1A1A1E 50%, #1A1A1E 75%, rgb(204, 199, 199) 100%) 1;
+  border-radius: 15px;
+  transition: border-image 500ms ease, transform 350ms ease;
 }
 
 .about__card:hover {
+  background: #19191b;
+  border-image: linear-gradient(136deg, rgb(236, 231, 231) 0%, #1A1A1E 25%, #1A1A1E 50%, #1A1A1E 75%, rgb(204, 199, 199) 100%) 1;
   transform: scale(1.05);
 }
+
+.skill__icons {
+  background: linear-gradient(128.38deg, #E7E7E7 0%, #848484 91.1%);
+  backdrop-filter: blur(5px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 20px;
+}
+
+.fadeIn {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateY(50%);
+  transition: all 1s;
+}
+
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateY(0);
+}
+
 

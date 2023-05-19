@@ -24,7 +24,17 @@ const App = () => (
       <div className="bg-primary flex justify-center items-center">
         <div className="xl:max-w-[1280px] w-full">
           <About />
+        </div>
+      </div>
+
+      <div className="bg-secondary flex justify-center items-center">
+        <div className="xl:max-w-[1280px] w-full">
           <Skills />
+        </div>
+      </div>
+
+      <div className="bg-primary flex justify-center items-center">
+        <div className="xl:max-w-[1280px] md:max-w-[1200px] w-full">
           <Contact />
           <Footer />
         </div>
