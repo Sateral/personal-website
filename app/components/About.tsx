@@ -31,7 +31,7 @@ const About = () => {
 
   return (
     <section id="about me" className="flex flex-col gap-12 sm:py-16 py-6">
-      <div className="font-medium text-3xl border-b-2 w-[155px]">About Me</div>
+      <div className="font-medium text-3xl border-b-2">About Me</div>
 
       <div className="flex md:flex-row flex-col justify-center items-center px-16">
         {aboutCards.map((card, index) => (

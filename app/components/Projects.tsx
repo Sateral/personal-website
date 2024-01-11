@@ -20,8 +20,8 @@ const Projects = () => {
     },
     {
       projectName: "Re-usable LightBox Component",
-      imageSrc: require("@/public/adlv.png"),
-      link: "Null",
+      imageSrc: require("@/public/Lightbox.png"),
+      link: "https://lightbox-v1.vercel.app/",
       description:
         "Lightboxes were one of the biggest headaches I stumbled upon when beginning to code web applications. This is the first version of a resuable lightbox component I developed using TypeScript and Hooks that can be easily implemented in future projects. The current modal is to be revised.",
     },
@@ -29,15 +29,14 @@ const Projects = () => {
       projectName: "Admin Dashboard",
       imageSrc: require("@/public/admin-dashboard.png"),
       link: "https://admin-dashboard-git-main-sateral.vercel.app/categories",
-      description: "",
+      description:
+        "This is an admin dashboard example I developed using NextJs, TypeScript, TailwindCSS, Prisma, and MongoDB. In this dashboard, the dashboard uses a REST API to get, post, delete, and patch categories for products. In turn, the user is able do the same with a product that can be created within an already existing category.",
     },
   ];
 
   return (
-    <div className="sm:py-16 py-6">
-      <div className="font-medium text-3xl border-b-2 w-[13]5px] mb-8">
-        Projects
-      </div>
+    <div id="projects" className="sm:py-16 py-6">
+      <div className="font-medium text-3xl border-b-2 mb-8">Projects</div>
 
       <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 ">
         {projects.map((project) => (
@@ -53,7 +52,7 @@ const Projects = () => {
                 className="rounded-lg border-white border-2"
               />
             </Link>
-            <p className="font-extralight mt-2 text-sm line-clamp-[1] group-hover:line-clamp-none">
+            <p className="font-extralight mt-2 text-sm md:line-clamp-2 sm:line-clamp-1 group-hover:line-clamp-none">
               {project.description}
             </p>
           </div>

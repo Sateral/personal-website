@@ -5,9 +5,7 @@ import Image from "next/image";
 const Skills = () => {
   return (
     <section id="skills" className="sm:py-16 py-6">
-      <div className="font-medium text-3xl border-b-2 w-[100px] mb-8">
-        Skills
-      </div>
+      <div className="font-medium text-3xl border-b-2 mb-8">Skills</div>
 
       <div className="flex md:flex-row flex-col md:pb-32 pb-8">
         <div className="flex-1 basis-1/2 flex justify-center items-center flex-col xl:px-0 sm:px-16 px-6">
