@@ -41,7 +41,10 @@ const Projects = () => {
 
       <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 ">
         {projects.map((project) => (
-          <div className="group hover:scale-105 transition-transform ease-in">
+          <div
+            className="group hover:scale-105 transition-transform ease-in"
+            key={project.projectName}
+          >
             <p className="font-extralight">{project.projectName}</p>
             <Link href={project.link} target="_blank">
               <Image

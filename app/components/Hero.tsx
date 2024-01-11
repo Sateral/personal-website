@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="flex flex-1 basis-1/2 justify-center items-center">
         <div>
           <h1 className="font-bold xl:text-4xl md:text-3xl text-2xl text-left bg-gradient-to-b from-white to-gray-300 text-transparent bg-clip-text">
-            I'm Daniel, a
+            I&apos;m Daniel, a
           </h1>
           <div className="inline-block">
             <h2 className="font-bold xl:text-7xl md:text-6xl text-5xl bg-gradient-to-b from-white to-gray-300 text-transparent bg-clip-text -ml-[0.5px] typewriter">

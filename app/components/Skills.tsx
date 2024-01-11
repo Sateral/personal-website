@@ -19,10 +19,11 @@ const Skills = () => {
             </div>
 
             <p className="font-extralight ss:text-[18px] text-[16px]  leading-[30.8px] max-w-[470px] mt-5">
-              Over the past couple of years, I've gained experience in various
-              languages, including Python, Java, JavaScript, TypeScript, and C.
-              Furthermore, I've worked with various frameworks and libraries to
-              develop interactive, user-friendly, responsive web applications.
+              Over the past couple of years, I&apos;ve gained experience in
+              various languages, including Python, Java, JavaScript, TypeScript,
+              and C. Furthermore, I&apos;ve worked with various frameworks and
+              libraries to develop interactive, user-friendly, responsive web
+              applications.
             </p>
           </div>
         </div>
