@@ -9,7 +9,7 @@ const Skills = () => {
         Skills
       </div>
 
-      <div className="flex md:flex-row flex-col md:pb-32 pb-8">
+      <div className="flex md:flex-row flex-col md:pb-32 pb-8 text-white">
         <div className="flex-1 basis-1/2 flex justify-center items-center flex-col xl:px-0 sm:px-16 px-6">
           <div className="md:ml-[40px]">
             <div className="flex flex-row justify-center items-center">
