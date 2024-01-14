@@ -36,9 +36,11 @@ const Projects = () => {
 
   return (
     <div id="projects" className="sm:py-16 py-6">
-      <div className="font-medium text-3xl border-b-2 mb-8">Projects</div>
+      <div className="font-medium text-3xl border-b-2 mb-8 text-white">
+        Projects
+      </div>
 
-      <div className="grid md:grid-cols-3 ss:grid-cols-2 grid-cols-1 gap-8 ">
+      <div className="grid md:grid-cols-3 ss:grid-cols-2 grid-cols-1 gap-8 text-white">
         {projects.map((project) => (
           <div
             className="group hover:scale-105 transition-transform ease-in"

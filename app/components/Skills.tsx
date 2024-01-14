@@ -5,7 +5,7 @@ import Image from "next/image";
 const Skills = () => {
   return (
     <section id="skills" className="sm:py-16 py-6">
-      <div className="font-medium border-b-2 mb-8 sm:text-3xl text-2xl">
+      <div className="font-medium border-b-2 mb-8 sm:text-3xl text-2xl text-white">
         Skills
       </div>
 

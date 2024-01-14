@@ -33,7 +33,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <div className="fixed left-0 w-full z-[51] bg-black bg-opacity-5 bg-clip-padding blur-backdrop-filter">
+    <div className="fixed left-0 w-full z-[51] bg-black bg-opacity-5 bg-clip-padding blur-backdrop-filter text-white">
       <nav className="flex max-w-[1280px] mx-auto px-8 py-3 justify-between items-center navbar">
         <a className="logo text-offWhite" href="#home">
           <h1 className="font-krona ss:text-[24px]">Daniel</h1>

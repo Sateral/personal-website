@@ -31,7 +31,7 @@ const About = () => {
 
   return (
     <section id="about me" className="flex flex-col gap-12 sm:py-16 py-6">
-      <div className="font-medium border-b-2 sm:text-3xl text-2xl">
+      <div className="font-medium border-b-2 sm:text-3xl text-2xl text-white">
         About Me
       </div>
 
