@@ -31,9 +31,11 @@ const About = () => {
 
   return (
     <section id="about me" className="flex flex-col gap-12 sm:py-16 py-6">
-      <div className="font-medium text-3xl border-b-2">About Me</div>
+      <div className="font-medium border-b-2 sm:text-3xl text-2xl">
+        About Me
+      </div>
 
-      <div className="flex md:flex-row flex-col justify-center items-center px-16">
+      <div className="flex md:flex-row flex-col justify-center items-center md:px-16 ss:text-base text-sm">
         {aboutCards.map((card, index) => (
           <div
             key={card.id}
@@ -41,13 +43,13 @@ const About = () => {
               index !== aboutCards.length - 1 ? "md:mr-8" : ""
             }`}
           >
-            <h1 className="text-center font-krona">{card.header}</h1>
+            <h1 className="text-center font-krona text-white">{card.header}</h1>
             <Image
               alt={card.header}
               src={card.icon}
               className={`py-6 ${index === 1 ? "w-[29.5px]" : "w-[36px]"}`}
             />
-            <p className="px-8">{card.description}</p>
+            <p className="px-8 text-white">{card.description}</p>
           </div>
         ))}
       </div>

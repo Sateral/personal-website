@@ -10,11 +10,11 @@ const Hero = () => {
             I&apos;m Daniel, a
           </h1>
           <div className="inline-block">
-            <h2 className="font-bold xl:text-7xl md:text-6xl text-5xl bg-gradient-to-b from-white to-gray-300 text-transparent bg-clip-text -ml-[0.5px] typewriter">
+            <h2 className="font-bold xl:text-7xl md:text-6xl ss:text-5xl text-4xl bg-gradient-to-b from-white to-gray-300 text-transparent bg-clip-text -ml-[0.5px] typewriter">
               PROGRAMMER
             </h2>
           </div>
-          <p className="md:text-lg sm:text-base font-extralight leading-[30.8px] mt-5">
+          <p className="md:text-lg sm:text-base text-sm font-extralight text-white leading-[30.8px] mt-5">
             With a love for coding, I strive to develop user-friendly,
             efficient, and impactful programs and coding solutions.
           </p>

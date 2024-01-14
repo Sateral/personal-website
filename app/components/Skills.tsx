@@ -5,18 +5,20 @@ import Image from "next/image";
 const Skills = () => {
   return (
     <section id="skills" className="sm:py-16 py-6">
-      <div className="font-medium text-3xl border-b-2 mb-8">Skills</div>
+      <div className="font-medium border-b-2 mb-8 sm:text-3xl text-2xl">
+        Skills
+      </div>
 
       <div className="flex md:flex-row flex-col md:pb-32 pb-8">
         <div className="flex-1 basis-1/2 flex justify-center items-center flex-col xl:px-0 sm:px-16 px-6">
           <div className="md:ml-[40px]">
             <div className="flex flex-row justify-center items-center">
-              <h1 className="flex-1 font-semibold ss:text-[42px] text-[32px] text-offWhite ss:leading-[50px] leading-[60px]">
+              <h1 className="flex-1 font-semibold sm:text-[42px] ss:text-[32px] text-2xl text-offWhite ss:leading-[50px] leading-[60px]">
                 Coding Versatility
               </h1>
             </div>
 
-            <p className="font-extralight ss:text-[18px] text-[16px]  leading-[30.8px] max-w-[470px] mt-5">
+            <p className="font-extralight sm:text-[18px] ss:text-[16px] text-sm  leading-[30.8px] max-w-[470px] sm:mt-5 mt-0">
               Over the past couple of years, I&apos;ve gained experience in
               various languages, including Python, Java, JavaScript, TypeScript,
               and C. Furthermore, I&apos;ve worked with various frameworks and
@@ -30,7 +32,7 @@ const Skills = () => {
           <Image
             src={CodingIcons}
             alt="Daniel Kop"
-            className="w-[250px] h-[auto] relative z-[5]"
+            className="sm:w-[275px] ss:w-[230px] w-[200px] h-[auto] relative z-[5]"
           ></Image>
           <div className="absolute z-[0] w-[40%] h-[35%] top-0 blue__gradient " />
 
@@ -45,7 +47,7 @@ const Skills = () => {
           <Image
             src={MSIcons}
             alt="Daniel Kop"
-            className="w-[350px] h-[auto] relative z-[5]"
+            className="sm:w-[350px] ss:w-[300px] w-[250px] h-[auto] relative z-[5]"
           ></Image>
           <div className="absolute z-[0] w-[40%] h-[35%] top-0 blue__gradient" />
 
@@ -57,12 +59,12 @@ const Skills = () => {
         <div className="flex-1 basis-1/2 flex justify-center items-center flex-col xl:px-0 sm:px-16 px-6 md:order-2 order-1">
           <div>
             <div className="flex flex-row justify-center items-center">
-              <h1 className="flex-1 font-semibold ss:text-[42px] text-[32px] text-offWhite ss:leading-[50px] leading-[60px] text-right">
+              <h1 className="flex-1 font-semibold sm:text-[42px] ss:text-[32px] text-2xl text-offWhite ss:leading-[50px] leading-[60px] text-right">
                 Microsoft Proficiency
               </h1>
             </div>
 
-            <p className="font-extralight text-offWhite ss:text-[18px] text-[16px]  leading-[30.8px] max-w-[470px] mt-5">
+            <p className="font-extralight text-offWhite sm:text-[18px] ss:text-[16px] text-sm  leading-[30.8px] max-w-[470px] sm:mt-5 mt-0">
               With proficiency in Microsoft applications, I excel in creating
               refined documents, impactful presentations, and efficient
               spreadsheet, leveraging VBA to automate taks and enhance data
